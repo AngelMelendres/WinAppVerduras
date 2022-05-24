@@ -10,22 +10,22 @@ using System.Windows.Forms;
 
 namespace WinAppVerduras
 {
-    public partial class frmEmpleadosBuscar : Form
+    public partial class frmEmpleadosEditar : Form
     {
-        public frmEmpleadosBuscar()
+        public frmEmpleadosEditar()
         {
             InitializeComponent();
             gbxEmpleado.Visible = false;
         }
 
-        private void btnAceptar_Click(object sender, EventArgs e)
-        {
-            this.Close();
-        }
-
         private void btnBuscar_Click(object sender, EventArgs e)
         {
             gbxEmpleado.Visible = true;
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            this.Close();
         }
     }
 }

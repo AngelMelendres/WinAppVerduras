@@ -58,6 +58,18 @@
     <Compile Include="frmEmpleadosBuscar.Designer.cs">
       <DependentUpon>frmEmpleadosBuscar.cs</DependentUpon>
     </Compile>
+    <Compile Include="frmEmpleadosEditar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmEmpleadosEditar.Designer.cs">
+      <DependentUpon>frmEmpleadosEditar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmEmpleadosEliminar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmEmpleadosEliminar.Designer.cs">
+      <DependentUpon>frmEmpleadosEliminar.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Form1.resx">
@@ -65,6 +77,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="frmEmpleadosBuscar.resx">
       <DependentUpon>frmEmpleadosBuscar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmEmpleadosEditar.resx">
+      <DependentUpon>frmEmpleadosEditar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmEmpleadosEliminar.resx">
+      <DependentUpon>frmEmpleadosEliminar.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

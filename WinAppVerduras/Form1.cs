@@ -37,5 +37,15 @@ namespace WinAppVerduras
         {
             AbrirFormulariosHijos(new frmEmpleadosBuscar());
         }
+
+        private void btnEditar_Click(object sender, EventArgs e)
+        {
+            AbrirFormulariosHijos(new frmEmpleadosEditar());
+        }
+
+        private void Eliminar_Click(object sender, EventArgs e)
+        {
+            AbrirFormulariosHijos(new frmEmpleadosEliminar());
+        }
     }
 }
