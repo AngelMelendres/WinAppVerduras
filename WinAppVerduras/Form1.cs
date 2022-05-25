@@ -22,18 +22,8 @@ namespace WinAppVerduras
             PruebaTablas o = new PruebaTablas();
             o.Show();
         }
-<<<<<<< Updated upstream
-=======
 
-        private void btnEAlternativas_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void btnOtros_Click(object sender, EventArgs e)
-        {
-            AbrirFormulariosHijos(new Clientes());
-        }
->>>>>>> Stashed changes
+  
+       
     }
 }
