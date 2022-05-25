@@ -60,6 +60,24 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="frmEmpleadosBuscar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmEmpleadosBuscar.Designer.cs">
+      <DependentUpon>frmEmpleadosBuscar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmEmpleadosEditar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmEmpleadosEditar.Designer.cs">
+      <DependentUpon>frmEmpleadosEditar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmEmpleadosEliminar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmEmpleadosEliminar.Designer.cs">
+      <DependentUpon>frmEmpleadosEliminar.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="RJCircularPictureBox.cs">
@@ -67,6 +85,15 @@
     </Compile>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmEmpleadosBuscar.resx">
+      <DependentUpon>frmEmpleadosBuscar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmEmpleadosEditar.resx">
+      <DependentUpon>frmEmpleadosEditar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmEmpleadosEliminar.resx">
+      <DependentUpon>frmEmpleadosEliminar.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -103,6 +130,9 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+
+    <None Include="Resources\Screenshot_52.png" />
+
     <None Include="Resources\Esta es.jpeg" />
   </ItemGroup>
   <ItemGroup>
@@ -122,6 +152,7 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\SAlir.png" />
+
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

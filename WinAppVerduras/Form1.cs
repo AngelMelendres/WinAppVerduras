@@ -10,13 +10,12 @@ using System.Windows.Forms;
 
 namespace WinAppVerduras
 {
-    public partial class Form1 : Form
+    public partial class btnBuscar : Form
     {
-        public Form1()
+        public btnBuscar()
         {
             InitializeComponent();
         }
-
         private Form formularioActivo = null;
         private void AbrirFormulariosHijos(Form formularioHijo)
         {
@@ -34,7 +33,20 @@ namespace WinAppVerduras
             formularioHijo.Show();
         }
 
-  
-       
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            AbrirFormulariosHijos(new frmEmpleadosBuscar());
+        }
+
+        private void btnEditar_Click(object sender, EventArgs e)
+        {
+            AbrirFormulariosHijos(new frmEmpleadosEditar());
+        }
+
+        private void Eliminar_Click(object sender, EventArgs e)
+        {
+            AbrirFormulariosHijos(new frmEmpleadosEliminar());
+        }
     }
 }
