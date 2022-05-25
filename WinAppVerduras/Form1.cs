@@ -16,13 +16,6 @@ namespace WinAppVerduras
         {
             InitializeComponent();
         }
-
-
-        private void button1_Click(object sender, EventArgs e)
-        {
-            PruebaTablas o = new PruebaTablas();
-            o.Show();
-
         private Form formularioActivo = null;
         private void AbrirFormulariosHijos(Form formularioHijo)
         {
@@ -54,7 +47,6 @@ namespace WinAppVerduras
         private void Eliminar_Click(object sender, EventArgs e)
         {
             AbrirFormulariosHijos(new frmEmpleadosEliminar());
-
         }
     }
 }
