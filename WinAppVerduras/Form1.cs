@@ -56,5 +56,8 @@ namespace WinAppVerduras
             AbrirFormulariosHijos(new frmEmpleadosEliminar());
 
         }
+
+  
+       
     }
 }
