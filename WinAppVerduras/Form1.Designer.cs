@@ -29,7 +29,7 @@
         private void InitializeComponent()
         {
             this.button1 = new System.Windows.Forms.Button();
-<<<<<<< Updated upstream
+
             this.SuspendLayout();
             // 
             // button1
@@ -310,13 +310,13 @@
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
->>>>>>> Stashed changes
+
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-<<<<<<< Updated upstream
+
             this.ClientSize = new System.Drawing.Size(542, 339);
             this.Controls.Add(this.button1);
             this.Name = "Form1";
@@ -336,7 +336,7 @@
             this.pnlContenedor.ResumeLayout(false);
             this.pnlContenedor.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
->>>>>>> Stashed changes
+
             this.ResumeLayout(false);
 
         }
